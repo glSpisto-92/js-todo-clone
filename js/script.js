@@ -26,10 +26,15 @@ $('#add_element').keydown(function(event){
   if(event.which == 13){
     var aggiungi = $(this).val();
     // aggiungo il template
+    
+    if(aggiungi != ''){
     var template = $('.template li').clone();
     template.prepend(aggiungi);
     // aggiungo il template alla listaSpesa
     $('.todo_list').append(template);
     $(this).val('');
+  } else{
+    alert('Non hai fame?!');
+  }
   }
 });

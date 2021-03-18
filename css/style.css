@@ -6,25 +6,27 @@
 
 body{
   font-family: 'Chango', cursive;
-  color: coral;
+  /* color: coral; */
 }
 
 h1{
   font-size: 40px;
-  color: coral;
   padding-top: 20px;
+  color: coral;
 }
 
 li{
   list-style: none;
   font-size: 24px;
   padding: 10px 0;
+  color:  #c6538c;
+
 }
 
 input{
   width: 400px;
   height: 35px;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 1px solid lightgreen;
   font-size: 28px;
   margin: 30px 0;
@@ -32,12 +34,13 @@ input{
 
 button{
   border-radius: 10px;
-  padding: 10px 20px;
-  border: 1px solid coral;
+  padding: 5px 20px;
+  border: 1px solid #c6538c;
   background: #fff;
-  color: coral;
+  color: #c6538c;
   font-weight: bold;
   font-style: italic;
+  cursor: pointer;
 }
 
 input:focus, button:focus{
