@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Chango', cursive;
+  color: coral;
+}
+
+h1{
+  font-size: 40px;
+  color: coral;
+  padding-top: 20px;
+}
+
+li{
+  list-style: none;
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+input{
+  width: 400px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid lightgreen;
+  font-size: 28px;
+  margin: 30px 0;
+}
+
+button{
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: 1px solid coral;
+  background: #fff;
+  color: coral;
+  font-weight: bold;
+  font-style: italic;
+}
+
+input:focus, button:focus{
+  outline: inherit;
+}
+
+::placeholder{
+  color: lightgreen;
+}
+
+.template{
+  display: none;
+}
+
+.wrapper{
+  max-width: 1024px;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(to bottom right, #99ff99 0%, #ccccff 100%);
+
+  /* background-image: url('../img/spesa.webp');
+  background-position: center;
+  background-repeat: no-repeat; */
+}
